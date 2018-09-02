@@ -1,0 +1,308 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+/*HEADER*/
+header{
+    background-color: green;
+    width: 100%;
+    height: 54px;
+}
+/*CONTAINER*/
+
+.super-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(../images/bgi-home.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*CAJA IZQUIERDA*/
+
+.izquierda{
+    width: 30%;
+    margin-top: 2.083%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    margin-right: 1%;
+}
+
+.datos-perfil{
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-top: 8px solid #e4e9f5;
+    border-right: 4px solid #e4e9f5;
+    border-left: 4px solid #e4e9f5;
+    border-bottom: 5px solid #e4e9f5;
+    border-radius: 4px 4px 4px 4px;
+    margin-bottom: 1%;
+}
+
+#foto-perfil{
+    margin-top: 7%;
+    width: 80%;
+    height: 1%;
+}
+
+#editar-foto{
+    display: inline-flex;
+    flex-wrap: initial;
+    padding: 4px;
+    border-radius: 3px;
+    background-color: #E8E8E8;
+    border: none;
+    margin: 10% 2% 2% 2%;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#editar-foto img{
+    width: 10%;
+    margin-right: 4%;
+}
+
+#editar-foto p{
+    font-size: 0.9%;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0px;
+}
+/* CAJA IZQUIERDA MENU DE NAVEGACION*/
+
+.caja-navegacion-perfil{
+    border: 4px solid  #e4e9f5;
+    border-radius: 4px 4px 4px 4px;
+    background-color: #fff;
+    margin-bottom: 1%;
+}
+
+.navegacion-perfil{
+    margin-top: 11%;
+    margin-bottom: 4%;
+    margin-left: 1%;
+}
+
+.navegacion-perfil li{
+    display: flex;
+    margin-bottom: 10%;
+    margin-left: 3%;
+}
+
+.navegacion-perfil li:last-child{
+    margin-top: 0%;
+}
+
+.navegacion-perfil li img{
+    width: 20%;
+    height: 1%;
+}
+
+.navegacion-perfil li a{
+    color: black;
+    font-size: 9px;
+    margin-left: 3%;
+    font-family: 'Acme', sans-serif;
+}
+
+.navegacion-perfil li a:hover{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navegacion-perfil li:hover{
+    background-color: #F8F8F8;
+    padding: 5px;
+}
+
+.navegacion-perfil li:active{
+    background-color: #E0E0E0;
+}
+/* MIS REDES*/
+
+.redes{
+    border-top: 8px solid#e4e9f5;
+    border-right: 4px solid#e4e9f5;
+    border-left: 4px solid#e4e9f5;
+    border-bottom: 5px solid#e4e9f5;
+    background-color: #fff;
+    margin-bottom: 2%;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.redes-titulo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.redes-titulo h5{
+    display: flex;
+    font-size: 14px;
+    margin-bottom: 0px;
+    padding: 2px;
+    font-family: 'Acme', sans-serif;
+    color: white;
+    background-color:#3b5998;
+    width: 100%;
+    justify-content: center;
+}
+
+.menu-social{
+    display: flex;
+    
+}
+
+.menu-social ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-social ul li{
+    display: flex;
+    float: left;
+    margin-right: 3px;
+}
+
+.menu-social ul li img{
+    width: 15px;
+    height: 15px;
+}
+
+.menu-social ul li:last-child{
+    margin-right: 0px;
+}
+
+.menu-social ul{
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 8%;
+    padding: 0px 2px 0px 2px;
+}
+
+/*VIAJES ALEATORIOS*/
+
+.viajes_aleatorios{
+    background-color: aquamarine;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+}
+
+.viajes_aleatorios p{
+    margin-bottom: 0;
+    font-size: 11px;
+}
+
+/* CAJA CENTRO*/
+
+.centro{
+    width: 69%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2.083%;
+}
+/*HEADER MURO*/
+
+.muro{
+    width: 100%;
+}
+
+.header_muro{
+    display: flex;
+    width: 100%;
+    background-color: #007bff;
+    font-family: 'Acme', sans-serif;
+    color: white;
+    height: 20px;
+    border-top: 1px solid #e4e9f5;
+    border-right: 1px solid #e4e9f5;
+    border-left: 1px solid #e4e9f5;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.header_muro p{
+    margin-bottom: 0;
+    font-size: 13px;
+    margin-left: 2%;
+    font-family: 'Acme', sans-serif;
+}
+
+/* MURO */
+
+.contenido_muro{
+    display: flex;
+    background-color: #fff;
+    border-top: 1px solid #e4e9f5;
+    border-right: 1px solid #e4e9f5;
+    border-left: 1px solid #e4e9f5;
+    border-radius: 0px 0px 4px 4px;
+}
+
+ /* REALIZAR PUBLICACION */
+
+ .foto-publicar{
+    display: flex;
+    background-color: 	#D8D8D8 ;
+    border:1px solid rgba(0,0,0,.125);
+    width: 90%;
+    height: 150px;
+    flex-wrap: wrap;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+.imagen_foto{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+.imagen_foto p {
+    font-size: 13px;
+    font-family: 'Acme', sans-serif;
+    text-transform: capitalize;
+}
+
+.imagen_foto img{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-right: 1%;
+}
+
+.caja_texto textarea{
+    resize: none;
+    border: none;
+    text-decoration: none;
+    background-color: #d2e0f7;
+}
+
+.caja_texto input[type=submit]{
+    border: none;
+    text-decoration: none;
+    background-color: #007bff;
+    border-radius: 5px;
+    padding: 3px;
+    color: #e4e9f5;
+    font-family: 'Acme', sans-serif;
+}
+
+
+

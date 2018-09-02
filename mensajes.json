@@ -1,0 +1,10 @@
+{"from":2,"to":"joaco","idDestinatario":2,"msj":"asdasdasdasd"}
+{"from":1,"to":"Gabriel","idDestinatario":1,"msj":"prueba"}
+{"from":1,"to":"Gabriel","idDestinatario":1,"msj":"hola"}
+{"from":1,"to":"Gabriel","idDestinatario":1,"msj":"hola de nuevo"}
+{"from":15,"to":"Gabriel","idDestinatario":1,"msj":"probando mensajes"}
+{"from":1,"to":"prueba","nombreRemitente":"Gabriel","idDestinatario":15,"msj":"enviado a prueba "}
+{"from":15,"to":"Gabriel","nombreRemitente":"prueba","idDestinatario":1,"msj":"Respondiendo a Gabriel"}
+{"from":1,"to":"prueba","nombreRemitente":"Gabriel","idDestinatario":15,"msj":"otro mensajes al usuario prueba"}
+{"from":1,"to":"prueba","nombreRemitente":"Gabriel","idDestinatario":15,"msj":"otro mensaje al user prueba"}
+{"from":2,"to":"Gabriel","nombreRemitente":"joaco","idDestinatario":1,"msj":"holiss\r\n"}

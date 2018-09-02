@@ -1,0 +1,508 @@
+* {
+  font-family: 'Montserrat';
+}
+
+body {
+  background-image: url(../images/bg-body02.jpg);
+  height: 100%;
+  background-attachment: fixed;
+  /*background-blend-mode: overlay;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /*background-color: #512DA8;*/
+}
+
+
+header .navbar {
+  background-color: rgba(2, 136, 209, 0.5);
+  box-shadow: 1px 3px 15px -3px #3F51B5;
+}
+
+.home .logo h2, #loguerla h2{
+    font-family: 'pacifico';
+}
+
+.logo-container {
+  position: relative;
+  width: 55px;
+  height: 30px;
+}
+
+.single, .riders {
+  display: inline-block;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-family: 'Pacifico';
+}
+
+.single {
+  position: absolute;
+  background-color: rebeccapurple;
+  z-index: 1;
+}
+
+.riders {
+  background-color: #4CAF50;
+  position: absolute;
+  right: 0;
+}
+
+.iniciar {
+  cursor: pointer;
+}
+
+.ingresar .shadow {
+  box-shadow: 1px 3px 15px -3px #000000;
+}
+
+.titulo-sr-home {
+  font-family: 'Abel';
+}
+
+.single-f {
+  font-family: 'Pacifico';
+}
+
+.objetive .col-6 {
+  font-family: 'Montserrat';
+}
+
+.obj-viajes {
+  font-family: 'Abel';
+  border: 1px dashed #D1C4E9;
+}
+
+.features-sr div {
+  line-height: 16px;
+}
+
+.features-sr > ul {
+  list-style: none;
+}
+
+.fa-search {
+    color: orange;
+}
+
+.fa-hand-pointer {
+    color: #673AB7;
+}
+
+.fa-plus, .fa-map-marker-alt {
+    color: #4CAF50;
+}
+
+.fa-map-marker-alt {
+    margin-right: 3px;
+}
+
+.sr-textdecoration {
+  text-decoration: underline;
+  text-decoration-color: #757575;
+}
+
+.fa-share-alt {
+    color: #757575;
+}
+
+.sr-footer {
+  background-color: #0097A7;
+}
+
+.sr-footer ul {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0;
+  min-width: 176px;
+}
+
+.sr-footer .fab {
+  margin-right: 5px;
+}
+
+.sr-footer .col-md-4 {
+  display: flex;
+  justify-content: center;
+}
+
+.sr-footer a:hover {
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.contacto-sr {
+    height: 100%;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+}
+
+.card-viajes {
+  font-family: 'Montserrat';
+  font-weight: normal;
+  font-size: 16px;
+  text-transform: none;
+}
+
+.second-section .card img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+    margin: 25px auto;
+    display: block;
+    position: relative;
+    border: 5px solid white;
+}
+
+.second-section .fondo-card {
+  position: absolute;
+  width: 100%;
+  height: 125px;
+  background-color: #3F51B5;
+  top: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.overbuttons:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.bottom-radius {
+  border-bottom-right-radius: .25rem !important;
+  border-bottom-left-radius: .25rem !important;
+}
+
+.custom-file-label::after {
+  content:'Buscar';
+}
+
+/* NOTE: inicio labels flotantes */
+
+:root {
+  --input-padding-x: .75rem;
+  --input-padding-y: .75rem;
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-label-group > input,
+.form-label-group > label {
+  padding: var(--input-padding-y) var(--input-padding-x);
+}
+
+.form-label-group > label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 2em; /* agregado */
+  margin-bottom: 0; /* Override default `<label>` margin */
+  /*line-height: 1.5;*/
+  line-height: 1.8;
+  color: #acacac;
+  cursor: text; /* Match the input under the label */
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  transition: all .1s ease-in-out;
+}
+
+.form-label-group input::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input:-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-moz-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::placeholder {
+  color: transparent;
+}
+
+.errores-form-sr {
+  border-bottom-color: tomato;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-width: 2px;
+}
+
+.form-label-group input:not(:placeholder-shown) {
+  padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+  padding-bottom: calc(var(--input-padding-y) / 3);
+}
+
+.form-label-group input:not(:placeholder-shown) ~ label {
+  padding-top: calc(var(--input-padding-y) / 3);
+  padding-bottom: calc(var(--input-padding-y) / 3);
+  font-size: 12px;
+  color: #777;
+}
+
+#imgperfil:not(:placeholder-shown) {
+    padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (1.2 ));
+    padding-bottom: calc(var(--input-padding-y) / 1.2);
+}
+
+.form-control {
+    height: auto !important;
+}
+
+/* Fallback for Edge
+-------------------------------------------------- */
+@supports (-ms-ime-align: auto) {
+  .form-label-group > label {
+    display: none;
+  }
+  .form-label-group input::-ms-input-placeholder {
+    color: #777;
+  }
+}
+
+/* Fallback for IE
+-------------------------------------------------- */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .form-label-group > label {
+    display: none;
+  }
+  .form-label-group input:-ms-input-placeholder {
+    color: #777;
+  }
+}
+
+/* NOTE: fin labels flotantes */
+
+#login-tab.active, #registro-tab.active {
+  border-top: 3px solid #007bff;
+}
+
+#login-tab:not(.active), #registro-tab:not(.active) {
+  border-top: 3px solid transparent;
+}
+
+#login-tab:hover:not(.active), #registro-tab:hover:not(.active) {
+  border-top: 3px solid #e9ecef;
+}
+
+
+/* NOTE: estilos faqs */
+
+.faqs .container-postal{
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+/*
+.postal{
+  background-image: url(../images/fondo-postal3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin-top: 10%;
+  background-position: center;
+}
+*/
+
+.faqs .row-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.faqs .respuestas{
+  background-image: url(../images/fondo-respuestas3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+  display: flex;
+/* justify-content: center; */
+  align-items: center;
+}
+
+
+/*.faqs .tab-content  p{
+  background-color: rgba(2, 136, 209, 0.5);
+  margin:5%;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}*/
+.faqs .tab-content p {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 5%;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* NOTE: fin estilos faqs */
+
+
+/* NOTE: inicio estilos perfil */
+.home-container {
+  margin-top: 5em !important;
+}
+
+/* NOTE: fin estilos perfil */
+
+/* NOTE: estilos muro2 */
+.top-muro-image {
+  background-image: url(../images/muro/banner.jpg);
+  height: 150px;
+  background-size: cover;
+  background-position: top;
+}
+
+.stepper-muro {
+  height:30px;
+  width: 30px;
+}
+
+.linea-steps {
+  flex: 1 auto;
+  height: 1px;
+  background: #cccccc;
+  align-self: center;
+}
+
+/* NOTE: fin estilos muro2 */
+
+/* NOTE: estilos nueva home  */
+/*.carousel-item {
+    border: 20px solid transparent;
+    border-image: url(../images/fondo2.png) 30 round;
+}*/
+.items-home-slider {
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: white;
+    padding: 0;
+}
+.items-home-slider li {
+    height: 200px;
+    width: 200px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 25px 25px;
+    font-family: 'Abel';
+    font-size: 1.2em;
+}
+
+.carousel-caption-top {
+  top:45%;
+  z-index:0;
+}
+
+.home-mod-login {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 2;
+}
+
+.home-row-main {
+  position: relative;
+}
+
+.second-section {
+  background: #e9ecef;
+}
+
+.second-section .card {
+  border: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 3px 5px 10px #888888;
+}
+
+.home-carousel {
+  display: none;
+}
+
+#map {
+  height: 347px;
+  /*max-width: 384px;*/
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* NOTE: fin estilos nueva home */
+
+
+@media(min-width: 400px){
+  .dropdown-menu {
+  left: -66px;
+  }
+}
+
+@media(min-width:460px){
+  .titulo-sr-home {
+    font-family: 'Abel';
+    position: sticky;
+    top: 1px;
+    z-index: 1;
+  }
+}
+
+@media (min-width: 576px) {
+  #navbarNav ul li {
+    text-align: right;
+    margin-right: 2px;
+  }
+}
+
+
+@media(min-width:768px){
+  .contacto-sr {
+      display: flex !important;
+      flex-flow: column;
+      justify-content: space-between;
+  }
+
+  .home-mod-login {
+      position: absolute;
+      right: 15px !important;
+      left: auto !important;
+      margin: auto !important;
+      top: 1.8em;
+  }
+
+  .home-carousel {
+    display: block;
+  }
+}

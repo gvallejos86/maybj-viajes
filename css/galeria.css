@@ -1,0 +1,62 @@
+.home .publicacion{
+    background-color: grey;
+    width: 66%;
+    border-radius: 5px;
+}
+/* FOTO DE USUARIO Y TITULOS*/
+.home .publicacion_usuarios{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home .publicacion_foto_usuario img{
+    border-radius: 50%;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.home .publicacion_nombre_usuario{
+    width: 80%;
+}
+/* CONTENIDO*/
+.home .publicacion_contenido{
+    display: flex;
+    justify-content: center;
+    padding: 0 10px 0 10px;
+}
+
+/*BOTONES*/
+.home .m_g{
+    margin-bottom: 3px;
+}
+
+.home .barra_accion{
+    width: 30%;
+    padding-top: 3px;
+    border-top: 0.1px solid black;
+    border-bottom: 0.1px solid black;
+    margin-left: 5px;
+}
+
+.home .barra_accion a{
+    background-color: white;
+}
+
+/*COMENTARIO*/
+.home .comentario{
+    display: flex;
+    font-weight: wrap;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.home .foto_comentario img{
+    border-radius: 50%;
+    padding-bottom: 3px;
+    margin-right: 2px;
+}
+
+.home .comentario_area textarea{
+    border-radius: 20px;
+    height: 25px;
+}

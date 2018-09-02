@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header .navbar {
+    background-color: rgba(2, 136, 209, 0.5);
+    box-shadow: 1px 3px 15px -3px #3F51B5;
+}
+  
+.logo-container {
+    position: relative;
+    width: 55px;
+    height: 30px;
+}
+  
+.single, .riders {
+    display: inline-block;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-family: 'Pacifico';
+}
+  
+.single {
+    position: absolute;
+    background-color: rebeccapurple;
+    z-index: 1;
+}
+  
+.riders {
+    background-color: #4CAF50;
+    position: absolute;
+    right: 0;
+}
+
+.sr-footer {
+    background-color: #0097A7;
+    margin-top: 0 !important;
+}
+  
+.sr-footer ul {
+    list-style: none;
+    display: inline-block;
+    padding-left: 0;
+    min-width: 176px;
+}
+  
+.sr-footer .fab {
+    margin-right: 5px;
+}
+  
+.sr-footer .col-md-4 {
+    display: flex;
+    justify-content: center;
+}
+  
+.sr-footer a:hover {
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+#loguerla h2{
+    font-family: 'pacifico';
+}
