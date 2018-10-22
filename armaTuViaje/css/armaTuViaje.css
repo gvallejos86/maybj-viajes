@@ -1,0 +1,33 @@
+* {
+  font-family: 'Montserrat';
+}
+
+.row{
+  height: 30%;
+}
+
+.col-12{
+  padding: 0;
+}
+
+.foto-armaTuViaje h1{
+  color: white;
+  font-family: 'Alegreya', serif;
+  text-align: center;
+  padding: 0;
+}
+h2{
+  color: white;
+  text-align: center;
+  padding:0;
+  font-family: 'Alegreya', serif;
+}
+.foto-armaTuViaje{
+  background-image: url(../imagenesArmaTuViaje/torre.png);
+  height: 400px;
+}
+
+.a.block.destination.caribe-no_text_decoration{
+  background: url(../imagenesArmaTuViaje/caribe3.jpeg);
+  background-size: cover;
+}
